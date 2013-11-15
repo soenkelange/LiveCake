@@ -1,0 +1,24 @@
+{
+    "name": "soenkelange/live_cake",
+    "type": "cakephp-plugin",
+    "description": "LiveCake is a plugin for CakePHP using LiveReload",
+    "keywords": [
+    	"cakephp",
+    	"livereload"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Soenke Lange",
+            "email": "soenkelange@aol.com"
+        }
+    ],
+    "support": {
+    	"issues": "https://github.com/soenkelange/LiveCake/issues",
+    	"source": "https://github.com/soenkelange/LiveCake"
+    },
+    "require": {
+    	"php": ">=5.3.3",
+        "composer/installers": "*"
+    }
+}
