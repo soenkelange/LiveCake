@@ -38,10 +38,12 @@ class LiveReloadHelper extends Helper {
  * @return void
  */
 	public function afterLayout($layoutFile) {
-		$head = $this->Html->script($this->settings['jsPath']);
-		$view = $this->_View;
-		if (preg_match('#</head>#', $view->output)) {
-			$view->output = preg_replace('#</head>#', $head . "\n</head>", $view->output, 1);
+		if (Configure::read('debug') > 0) {
+			$head = $this->Html->script($this->settings['jsPath']);
+			$view = $this->_View;
+			if (preg_match('#</head>#', $view->output)) {
+				$view->output = preg_replace('#</head>#', $head . "\n</head>", $view->output, 1);
+			}
 		}
 	}
 }
