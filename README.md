@@ -1,0 +1,1 @@
+# LiveReload plugin for CakePHP
