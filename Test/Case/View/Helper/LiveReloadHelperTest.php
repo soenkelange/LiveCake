@@ -1,7 +1,8 @@
 <?php
 App::uses('View', 'View');
 App::uses('Helper', 'View');
-App::uses('LiveReloadHelper', 'LiveReload.View/Helper');
+App::uses('LiveReloadHelper', 'LiveCake.View/Helper');
+App::uses('Controller', 'Controller');
 
 /**
  * LiveReloadHelper Test Case

@@ -1,4 +1,4 @@
-# LiveCake V.1
+# LiveCake V.1.0.1
 LiveCake is a plugin for CakePHP using LiveReload
 
 ##Requirements
@@ -18,7 +18,7 @@ Be sure require is present in composer.json. This will install the plugin into a
 ## Enable
 You need to enable the plugin in your app/COnfig/bootstrap.php file:
 
-`CakePlugin::load('BoostCake');`
+`CakePlugin::load('LiveCake');`
 
 ## How to use
 To use this helper add the following to you AppController:

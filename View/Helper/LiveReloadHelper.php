@@ -1,6 +1,8 @@
 <?php
 
-class LiveReloadHelper extends Helper {
+App::uses('AppHelper', 'View/Helper');
+
+class LiveReloadHelper extends AppHelper {
 
 /**
  * Helpers
